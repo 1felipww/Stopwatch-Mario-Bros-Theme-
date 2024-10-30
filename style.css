@@ -1,0 +1,72 @@
+body {
+    background-color: black; /* Cor de fundo da página */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura da página inteira */
+    margin: 0; /* Remove a margem padrão */
+    background-image: url('https://media.discordapp.net/attachments/1285668708840378472/1301309933962399845/Sem_titulo.png?ex=672402d1&is=6722b151&hm=1e5a07e6066e1961436f6a01a10e9cadaa452d964e0064b6417e0b078489ddc7&=&format=webp&quality=lossless&width=1193&height=671'); /* URL da imagem online */
+    background-size: cover; /* cobre toda a área da tela */
+    background-position: center; /* centraliza a imagem */
+    background-repeat: no-repeat; /* evita repetição da imagem */
+}
+
+h1 {
+    color: #ffffff;             
+    text-align: center;         
+    font-weight: bold;          
+    font-family: "Tiny5", sans-serif;
+    font-size: 2.5rem;          /* Aumenta o tamanho do título */
+    margin-bottom: 20px;        /* Aumenta o espaçamento abaixo do título */
+}
+
+#cronometroBox {
+    width: 350px;               /* Largura da caixa do cronômetro */
+    padding: 20px;              /* Aumenta o espaço interno */
+    border: 2px solid #5c94fc;  /* Borda */
+    border-radius: 5px;        /* Bordas arredondadas */
+    background-color: #5c94fc;  /* Cor de fundo */
+    text-align: center;         /* Centraliza o conteúdo da caixa */
+    margin-bottom: 30px;        /* Aumenta o espaçamento abaixo da caixa */
+    opacity: 0.9;               /* Opacidade do fundo da caixa */
+}
+
+#cronometro {
+    color: #ffffff;             
+    font-weight: bold;          
+    font-family: "Tiny5", sans-serif;
+    font-size: 2rem;            
+}
+
+.botoes {
+    display: flex;              /* Usar flexbox para alinhar os botões */
+    justify-content: center;    /* Centraliza os botões horizontalmente */
+    gap: 20px;                  /* Aumenta o espaçamento entre os botões */
+    margin-top: 20px;           /* Aumenta o espaço acima dos botões */
+}
+
+button {
+    width: 180px;               /* Largura dos botões */
+    padding: 15px;              /* Aumenta o espaço interno dos botões */
+    border: 2px solid #5c94fc;  /* Borda */
+    border-radius: 5px;        /* Bordas arredondadas */
+    background-color: #5c94fc;  /* Cor de fundo dos botões */
+    color: #ffffff;              /* Cor do texto dos botões */
+    font-family: "Tiny5", sans-serif; 
+    font-weight: bold;          
+    font-size: 1.2rem;         
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Transições suaves */
+    opacity: 0.9; /* Transição suave de cor de fundo */
+    
+}
+
+button:hover {
+    transform: scale(1.1); /* Aumenta o botão em 10% */
+    transition: transform 0.3s; /* Transição suave */
+}
+
+button:active {
+    transform: scale(0.95); /* Efeito de aperto */
+}
